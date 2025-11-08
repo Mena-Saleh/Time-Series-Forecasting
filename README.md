@@ -62,6 +62,26 @@ Each model was manually tuned for hyperparameters to optimize performance on the
 - **Mean Absolute Error (MAE)**
 - **Mean Absolute Percentage Error (MAPE)**
 
+### Resulting metrics for the XGBoost model:
+#### Training Set Metrics:
+
+| Metric                                    |    Value    |
+| :---------------------------------------- | :---------: |
+| **R² Score**                              | **99.43 %** |
+| **Mean Absolute Error (MAE)**             |  **112.32** |
+| **Mean Absolute Percentage Error (MAPE)** |  **2.37 %** |
+
+
+#### Validation Set Metrics:
+
+| Metric                                    |    Value    |
+| :---------------------------------------- | :---------: |
+| **R² Score**                              | **94.16 %** |
+| **Mean Absolute Error (MAE)**             |  **337.44** |
+| **Mean Absolute Percentage Error (MAPE)** |  **5.30 %** |
+
+
+
 Below is a plot showing the performance of the XGBoost model on the validation set. The closer the predicted values are to the actual values, the better the model’s performance:
 
 <p align="center">
